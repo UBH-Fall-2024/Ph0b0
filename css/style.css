@@ -445,49 +445,6 @@
 /*** Service End ***/
 
 
-/*** Features Start ***/
-.feature .feature-item {
-    text-align: center;
-    border-radius: 10px;
-    background: var(--bs-light);
-    border: 1px solid transparent;
-    transition: 0.5s;
-}
-
-.feature .feature-item:hover {
-    border: 1px solid var(--bs-primary);
-}
-
-.feature .feature-item .feature-icon {
-    background: var(--bs-white);
-    border-radius: 10px;
-    display: inline-block;
-}
-/*** Features End ***/
-
-/*** Offer Start ***/
-.offer-section .nav a.accordion-link {
-    width: 100%;
-    border-radius: 10px;
-    display: flex;
-    background: var(--bs-white);
-    transition: 0.5s;
-}
-
-.offer-section .nav a.accordion-link.active {
-    color: var(--bs-white);
-    background: var(--bs-primary);
-}
-
-.offer-section .nav a.accordion-link h5 {
-    transition: 0.5s;
-}
-
-.offer-section .nav a.accordion-link.active h5 {
-    color: var(--bs-white);
-}
-/*** Offer End ***/
-
 /*** Blog Start ***/
 .blog .blog-item {
     border-radius: 10px;
@@ -539,7 +496,7 @@
 .blog .blog-item .blog-img .blog-title {
     position: absolute;
     bottom: 25px;
-    left: 25px;
+    left: 10px;
     z-index: 5;
 }
 
@@ -588,6 +545,14 @@
     background: var(--bs-dark);
     color: var(--bs-primary);
 }
+
+.each-game-card{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+
 /*** Blog End ***/
 
 
