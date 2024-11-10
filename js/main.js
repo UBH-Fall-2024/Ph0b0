@@ -1,3 +1,5 @@
+
+
 (function ($) {
     "use strict";
 
@@ -134,3 +136,23 @@
 
 })(jQuery);
 
+    let dangnhap = false;
+    const currentValue = document.getElementById("currentState");  
+    const loginBtn = document.getElementById("login");
+    const logoutBtn = document.getElementById("logout");
+
+    loginBtn.onclick = function (){
+        if(!dangnhap){
+            dangnhap = true;
+            currentValue.textContent = "Taken";
+            currentValue.style.color = "red";
+        }
+
+    logoutBtn.onclick = function (){
+        if(dangnhap){
+            dangnhap = false;
+            currentValue.textContent = "Available";
+            currentValue.style.color = "green";
+        }
+    }
+}
