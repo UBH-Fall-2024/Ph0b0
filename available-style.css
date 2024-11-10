@@ -888,3 +888,141 @@
     display: flex;
     justify-content: space-between;
 }
+
+.pc-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}   
+
+.games-button-cotainer{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PC-computer-button{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PC-buttons{
+    padding: 10px 20px;
+    font-size: 0.5em;
+    color: white;
+    background-color: blue;
+}
+
+.PC-label{
+    justify-content: center;
+    color: green;
+    align-items: center;
+}
+
+.PC-row-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+body, h4, label, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+
+.pc-item-container {
+    max-width: 18%;
+    flex: 1 1 18%;
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.pc-item-container:hover {
+    transform: scale(1.05);
+}
+
+.pc-feature-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pc-feature-item:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.pc-status {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: green;
+}
+
+.pc-status2 {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: red;
+}
+
+.pc-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.pc-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+}
+
+.pc-login-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pc-login-button:hover {
+    background-color: #45a049;
+}
+
+.pc-logout-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.pc-logout-button:hover {
+    background-color: #e53935;
+}
+
+/* Title for Each PC Item */
+.pc-title {
+    margin-top: 16px;
+    font-size: 1.1rem;
+    color: #333;
+}
