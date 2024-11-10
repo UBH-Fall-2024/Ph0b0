@@ -419,7 +419,7 @@
 /*** Service Start ***/
 .service .service-item {
     background: var(--bs-light);
-    border-radius: 10px;
+    border-radius: 20px;
     transition: 0.5s;
 }
 
