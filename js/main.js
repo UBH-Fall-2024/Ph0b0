@@ -136,21 +136,21 @@
 
 })(jQuery);
 
-    let dangnhap = false;
+    let login = false;
     const currentValue = document.getElementById("currentState");  
     const loginBtn = document.getElementById("login");
     const logoutBtn = document.getElementById("logout");
 
     loginBtn.onclick = function (){
-        if(!dangnhap){
-            dangnhap = true;
+        if(!login){
+            loging = true;
             currentValue.textContent = "Taken";
             currentValue.style.color = "red";
         }
 
     logoutBtn.onclick = function (){
-        if(dangnhap){
-            dangnhap = false;
+        if(login){
+            login = false;
             currentValue.textContent = "Available";
             currentValue.style.color = "green";
         }
